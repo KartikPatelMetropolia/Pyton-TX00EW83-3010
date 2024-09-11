@@ -15,7 +15,7 @@ connection = mysql.connector.connect(
          port= 3306,
          database='flight_game',
          user='root',
-         password='Kartikpatel@1',
+         password='root_password',
          autocommit=True
          )
 icao = input("Enter the icao code of the airport to search:")
